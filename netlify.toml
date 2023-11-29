@@ -1,6 +1,6 @@
 [build]
   command = "CI= npm run build"
-
+  command = "NODE_OPTIONS='--openssl-legacy-provider' react-scripts build"
 [[redirects]]
   from = "/*"
   to = "/index.html"
